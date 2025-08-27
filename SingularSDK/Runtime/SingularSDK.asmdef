@@ -1,7 +1,9 @@
 {
     "name": "SingularSDK",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "UnityEngine.Purchasing"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
