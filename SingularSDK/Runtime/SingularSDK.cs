@@ -7,7 +7,11 @@ using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 using UnityEngine;
 #if SINGULAR_SDK_IAP_ENABLED
-using UnityEngine.Purchasing;
+#if UNITY_IAP_5_OR_NEWER
+    using Unity.Purchasing;
+#else
+    using UnityEngine.Purchasing;
+#endif
 #endif // SINGULAR_SDK_IAP_ENABLED
 
 namespace Singular

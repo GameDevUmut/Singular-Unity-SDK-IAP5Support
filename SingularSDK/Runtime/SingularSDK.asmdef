@@ -2,6 +2,7 @@
     "name": "SingularSDK",
     "rootNamespace": "",
     "references": [
+        "Unity.Purchasing",
         "UnityEngine.Purchasing"
     ],
     "includePlatforms": [],
@@ -16,6 +17,11 @@
              "name": "com.unity.purchasing",
              "expression": "",
              "define": "SINGULAR_SDK_IAP_ENABLED"
+         },
+         {
+             "name": "com.unity.purchasing",
+             "expression": "5.0.0",
+             "define": "UNITY_IAP_5_OR_NEWER"
          }
      ],
     "noEngineReferences": false
